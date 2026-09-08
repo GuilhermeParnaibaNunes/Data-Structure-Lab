@@ -1,0 +1,29 @@
+# C/C++
+*.o
+*.out
+*.exe
+bin/
+*.dll
+*.so
+*.obj
+*.pdb
+*.ilk
+Debug/
+Release/
+x64/
+x86/
+
+# Java
+*.class
+*.jar
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.suo
+*.sln
+*.sw?
+
+# SO
+.DS_Store
+Thumbs.db
