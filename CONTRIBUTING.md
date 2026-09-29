@@ -12,6 +12,11 @@ Utilizamos um padrão baseado no Conventional Commits para manter o histórico o
 * `fix(04-grafos): corrige erro de segmentação na busca em largura` (Correção de bugs)
 * `docs(03-arvores): atualiza apostila de árvore balanceada` (Alterações nos arquivos .md)
 
+## Convenção de Nomenclatura
+- Documentação e pastas: `Title_Case` (ex: `Apostila.md`, `Lista_Sequencial/`)
+- Código C: `snake_case` (ex: `lista_sequencial.c`)
+- Código Java: `PascalCase` para classes (ex: `ListaSequencial.java`)
+
 ## Checklist de Pull Request (PR)
 
 Antes de enviar seu PR, garanta que sua contribuição atende aos requisitos abaixo:
