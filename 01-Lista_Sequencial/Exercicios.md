@@ -1,3 +1,5 @@
+🇧🇷 Português | [🇺🇸 English](./Exercicios.en.md)
+
 # Exercícios de Fixação: Lista Sequencial
 
 Estes exercícios testam a compreensão sobre a mecânica de memória, complexidade assintótica e limitações práticas da Lista Sequencial. Tente resolvê-los antes de consultar o gabarito.

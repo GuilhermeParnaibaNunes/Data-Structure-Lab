@@ -1,3 +1,5 @@
+🇧🇷 Português | [🇺🇸 English](./Apostila.en.md)
+
 # Lista Sequencial (Array-based List)
 
 ## 1. Motivação

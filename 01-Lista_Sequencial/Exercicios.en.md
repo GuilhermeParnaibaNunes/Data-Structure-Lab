@@ -1,3 +1,5 @@
+[🇧🇷 Português](./Exercicios.md) | 🇺🇸 English
+
 # Practice Exercises: Sequential List
 
 These exercises test your understanding of memory mechanics, asymptotic complexity, and the practical limitations of the Sequential List. Try to solve them before checking the answer key.
