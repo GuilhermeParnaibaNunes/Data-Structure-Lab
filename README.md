@@ -18,6 +18,39 @@ Este repositório foi criado para descomplicar o aprendizado de Estruturas de Da
 * `/06-Hashing` - Funções de hashing e resolução de colisões
 * `/07-Paradigmas` - Algoritmos Gulosos e Programação Dinâmica
 
+### 🚀 Roadmap de Desenvolvimento (Módulo 01)
+Abaixo está o planejamento e o status atual da implementação das estruturas lineares básicas:
+
+- [x] 01. Lista Sequencial (Array)
+- [ ] 02. Lista Encadeada Simples
+- [ ] 03. Lista Duplamente Encadeada
+- [ ] 04. Lista Encadeada Circular
+- [ ] 05. Pilha Sequencial
+- [ ] 06. Pilha Encadeada
+- [ ] 07. Fila Sequencial
+- [ ] 08. Fila Encadeada
+- [ ] 09. Fila Circular
+- [ ] 10. Deque
+
+*(As listas de tarefas dos próximos módulos serão adicionadas conforme o avanço do projeto).*
+
+## 🛠️ Ambiente de Build (C/C++)
+
+Os exemplos em C usam `-fsanitize=address` (AddressSanitizer) para
+detectar bugs de memória (buffer overflow, use-after-free, memory
+leak) — um dos erros mais comuns ao implementar estruturas de dados.
+
+- **Linux / macOS / WSL2:** funciona nativamente, nenhuma configuração extra.
+- **Windows nativo (MSYS2/MinGW):** o AddressSanitizer é suportado de
+  forma inconsistente entre os ambientes do MSYS2. Se você compilar
+  no ambiente **UCRT64**, a flag é automaticamente desabilitada pelo
+  Makefile (detecção de SO). Para obter a proteção completa do
+  ASan no Windows, duas opções:
+  1. Use o ambiente **MSYS2 MinGW64** em vez do UCRT64
+     (`pacman -S mingw-w64-x86_64-gcc`), ou
+  2. Compile via **WSL2** (recomendado) — ambiente mais próximo do
+     usado na correção da disciplina.
+
 ### 🤝 Como Contribuir
 Alunos e futuros monitores são convidados a contribuir! Leia o arquivo `CONTRIBUTING.md` para entender nosso padrão de commits e o checklist de Pull Requests.
 
