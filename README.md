@@ -22,7 +22,7 @@ Este repositório foi criado para descomplicar o aprendizado de Estruturas de Da
 Abaixo está o planejamento e o status atual da implementação das estruturas lineares básicas:
 
 - [x] 01. Lista Sequencial (Array)
-- [ ] 02. Lista Encadeada Simples
+- [ ] 02. Lista Simplesmente Encadeada
 - [ ] 03. Lista Duplamente Encadeada
 - [ ] 04. Lista Encadeada Circular
 - [ ] 05. Pilha Sequencial
