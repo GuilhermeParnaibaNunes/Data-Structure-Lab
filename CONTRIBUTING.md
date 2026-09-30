@@ -25,3 +25,26 @@ Antes de enviar seu PR, garanta que sua contribuição atende aos requisitos aba
 - [ ] **Documentação:** A respectiva "apostila" teórica (`.md`) foi criada ou atualizada.
 - [ ] **Prática:** O código inclui a versão genérica da estrutura e um exemplo funcional (`demo`) simulando uma aplicação real.
 - [ ] **Consistência:** Os arquivos foram alocados na pasta correta do módulo e seguem o padrão de nomenclatura do projeto.
+
+## Fluxo de Branch por Estrutura
+
+Cada estrutura do checklist é desenvolvida em uma branch própria, seguindo o
+padrão `feat/<numero>-<nome-da-estrutura>` (ex: `feat/01-lista-sequencial`).
+
+1. Criar a branch a partir de `main`:
+```bash
+   git checkout -b feat/NN-nome-da-estrutura
+```
+2. Desenvolver o ciclo completo de commits da estrutura (apostila, C, Java,
+   exercícios, traduções EN — ver padrão de commits acima).
+3. Mergear em `main` e limpar a branch:
+```bash
+   git checkout main
+   git merge feat/NN-nome-da-estrutura
+   git branch -d feat/NN-nome-da-estrutura
+   git push origin --delete feat/NN-nome-da-estrutura  # se houver push remoto
+```
+
+`git branch -d` (minúsculo) é intencional — ele só permite apagar branches já
+totalmente mergeadas em `main`, funcionando como proteção contra perda
+acidental de trabalho. Nunca usar `-D` maiúsculo sem investigar antes.
