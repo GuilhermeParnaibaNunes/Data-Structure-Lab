@@ -1,3 +1,5 @@
+🇧🇷 Português | [🇺🇸 English](./CONTRIBUTING.en.md)
+
 # Contribuindo para o Data Structure Lab
 
 Ficamos felizes que você queira contribuir! Este repositório é mantido para auxiliar alunos, e contribuições de outros monitores ou estudantes são muito bem-vindas.
